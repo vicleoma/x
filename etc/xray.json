@@ -4,7 +4,7 @@
         {
             "listen": "/etc/caddy/vmess","protocol": "vmess",
             "settings": {"clients": [{"id": "$AUUID"}]},
-            "streamSettings": {"network": "ws","wsSettings": {"path": "/nf"}}
+            "streamSettings": {"network": "httpupgrade","httpupgradeSettings": {"path": "/nf"}}
         }
     ],
     
